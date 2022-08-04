@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Realm | Game Hub</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="pictures/favicon.ico" type="image/gif" sizes="16x16">
+	<script src="https://kit.fontawesome.com/09491d0502.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+	<header id="header">
+		<nav>
+			<div id="menu-btn">
+				<i class="fas fa-bars" id="menu-icon"></i>
+			</div>
+			<div id="logo-wrapper">
+				<img id="logo" src="pictures/logo.png" alt="Logo">
+			</div>
+
+			<div class="search">
+				<input type="text" name="search" placeholder="Search" spellcheck="false">
+				<i class="fas fa-search"></i>
+			</div>
+		</nav>
+	</header>
+
+	<div id="menu-close-bar">
+		<a href="#games-section">
+			<i class="fas fa-gamepad"></i>
+		</a>
+		<a href="#articles-section">
+			<i class="far fa-newspaper"></i>
+		</a>
+		<a href="#info">
+			<i class="fas fa-info"></i>
+		</a>
+	</div>
+
+	<div id="menu-open-BGFade"></div>
+
+	<div id="menu-open-bar">
+		<div id="menu-open-links">
+			<ul type="none">
+				<li id="menu-item-0" class="menu-open-link-item">Request A Game</li>
+				<li id="menu-item-1" class="menu-open-link-item">Submit An Article</li>
+				<li id="menu-item-2" class="menu-open-link-item">Help Us Grow</li>
+				<li id="menu-item-3" class="menu-open-link-item">Submit Feedback</li>
+			</ul>
+		</div>
+
+		<hr>
+		
+		<div id="themes-section">
+			<div id="themes">
+				<p>Background Themes</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="games-section">
+		<p id="games-heading">Games</p>
+		<div id="games">
+			<div class="game" id="game1">
+				<div class="game-thumbnail-wrapper">
+					<img src="pictures/game thumbnails/falling ball.png" class="game-thumbnail">
+				</div>
+				<div class="game-card-content-box">
+					<h3 class="game-card-name">Falling Ball</h3>
+					<p class="game-click-to-play">click to play</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="articles-section">
+		<p id="articles-heading">Articles</p>
+		<div id="articles">
+			<div class="article" id="article1">
+				<div class="article-thumbnail-wrapper">
+					<img src="pictures/article thumbnails/article1.jpg" class="article-thumbnail">
+				</div>
+				<div class="article-card-content-box">
+					<h3 class="article-card-label">The mythology of Mortal Kombat: How a 1992 video game spawned a globally successful franchise across media</h3>
+					<p class="article-click-to-read">click to read</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="frame-open-BGFade"></div>
+	<div id="frame-open-container">
+		<div id="frame-close-btn-wrapper">
+			<div id="frame-close-btn">
+				<div id="frame-close-btn-line"></div>
+			</div>
+		</div>
+		<div id="frame-expand-shrink-btn-wrapper">
+			<i class="fas fa-expand" id="frame-expand-shrink-btn"></i>
+		</div>
+		<iframe frameborder="0" id="open-frame"></iframe>
+	</div>
+
+
+
+	<footer id="info">
+		<div class="footer-heading footer-1">
+			<h2>About Us</h2>
+			<a href="#LinkNotPresent">Blog</a>
+			<a href="#LinkNotPresent">Developers</a>
+			<a href="#LinkNotPresent">Coustomers</a>
+			<a href="#LinkNotPresent">Terms of Service</a>
+		</div>
+		<div class="footer-heading footer-2">
+			<h2>Contact Us</h2>
+			<a href="#LinkNotPresent">Jobs</a>
+			<a href="#LinkNotPresent">Support</a>
+			<a href="#LinkNotPresent">Contact</a>
+			<a href="#LinkNotPresent">Sponsorships</a>
+		</div>
+		<div class="footer-heading footer-2">
+			<h2>Social Media</h2>
+			<a href="#LinkNotPresent">Instagram</a>
+			<a href="#LinkNotPresent">Facebook</a>
+			<a href="#LinkNotPresent">Youtube </a>
+			<a href="#LinkNotPresent">Twitter</a>
+		</div>
+		<div class="footer-email-form">
+			<h2>Join our Newsletter</h2>
+			<input type="email" placeholder="Enter your email address" id="footer-email">
+			<input type="Submit" value="Sign up" id="footer-email-btn">
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

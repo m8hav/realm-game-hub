@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Falling Ball</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+	<div id="instructions-box">
+		<h2>Instructions:</h2><br>
+		<ul>
+			<li>Use the Left and Right arrow keys to move the ball.</li>
+			<li>Drop through the gaps and avoid touching the top.</li>
+			<li>Press the Spacebar to start/pause the game.</li>
+		</ul>
+	</div>
+
+	<div id="gameBox">
+		<div id="topCover" class="cover">
+			<p>Falling Ball Game</p>
+		</div>
+		<div id="bottomCover" class="cover">
+			<div id="score-box">
+				Score: <span id="score-box-number">0</span>
+			</div>
+			<div id="difficulty-box">
+				Difficulty: <span id="difficulty-box-number">Easy</span>
+			</div>
+		</div>
+		<div id="character"></div>
+	</div>
+
+	<div id="game-over-popup">
+		<h2>GAME OVER!</h2>
+		<br>
+		<h3>Your score is <span id="game-over-score">0</h3>
+		<br>
+		<hr>
+		<br>
+		<div id="restart-game-button" onclick="location.reload()">
+			<i class="fas fa-redo-alt"></i> Restart game 
+		</div>
+	</div>
+	<div id="bg-fade"></div>
+
+</body>
+	<script src="script.js"></script>
+</html>
