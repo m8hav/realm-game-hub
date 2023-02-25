@@ -93,7 +93,7 @@ const elementUrls = {
 
 
 // Setting first background Image
-document.body.style.backgroundImage = "url('pictures/themes/theme (1).jpg')";
+document.body.style.backgroundImage = "url('pictures/themes/theme (4).jpg')";
 
 
 
